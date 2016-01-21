@@ -1,5 +1,10 @@
 * { box-sizing: border-box; }
 
+body {
+    background-color: #fffeea;
+    color: #34495e;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -29,5 +34,44 @@
 .header {
     margin: 30px 20px;
 }
+
+.box,
+.skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #5ad4c2;
+    color: #FFF;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    -webkit-margin-before: 0;
+}
+
+#skills-list {
+    margin-left: 50px;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+    font-family: 'Inconsolata', Futura, Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+    font-family: 'Inconsolata', Georgia, Lucida-Bright, serif;
+}
+
+.intro p {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+
+
+
+
 
 
