@@ -1,3 +1,5 @@
+/*****jumbotron*****/
+
 .jumbotron {
     background-image: url("../img/Elephant.jpg");
     background-size: cover;
@@ -6,6 +8,8 @@
 .jumbotron p {
     color: dimgrey;
 }
+
+/***** Nav Bar *****/
 
 .nav {
     background-color: black;
@@ -43,14 +47,21 @@
 
 * { box-sizing: border-box; }
 
+/***** pages *****/
+
 body {
     background-color: #fffeea;
     color: #34495e;
 }
 
-.container {
+.kettle {
     width: 80%;
     margin: 0 auto;
+    margin-top: 6em;
+}
+
+li {
+  list-style: none;
 }
 
 .header h1 {
